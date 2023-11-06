@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import "./Home.css";
 import Cart from "./card/Cart";
 import Gallery from "./Gallery/Gallery";
+
+
 const Home = () => {
   const [products, setProduct] = useState([]);
 
