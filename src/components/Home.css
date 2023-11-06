@@ -1,0 +1,17 @@
+.products {
+  margin: 10px auto;
+  width: 88%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(243, 241, 238);
+}
+.gallery {
+  margin: 10px auto;
+  width: 88%;
+  background-color: rgb(250, 234, 212);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}

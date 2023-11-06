@@ -1,0 +1,26 @@
+.card {
+  max-width: 400px;
+  max-height: 400px;
+  border: 1px solid rgb(223, 201, 201);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 4px 1px;
+  position: relative;
+  transition: opacity 0.3s, background-color 0.3s;
+}
+.card:hover {
+  background-color: gray;
+}
+.card img:hover {
+  opacity: 0.2;
+  transition: opacity 0.3s, background-color 0.3s;
+}
+.check {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+  cursor: pointer;
+}
